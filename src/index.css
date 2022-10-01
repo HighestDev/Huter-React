@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100&family=League+Spartan:wght@300;500;600;700;800;900&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif !important;}
+
+.control_container{
+  position:relative;
+  top:3rem !important;
+}
+
+.search_bit{
+    display:none;
+  }
+
+  .drop_down{
+    display:none;
+  }
+
+  .domain_details{
+
+  }
+
+  .name{
+    font-weight:bolder;
+    font-size:18px;
+    margin-bottom:5px;
+    margin-top:5px !important;
+    
+  }
+.email{
+  font-weight: 300;
+  margin-bottom:5px;
+}
+.links{
+  margin-bottom: 100px !important;
+  position:relative;
+  top:3rem !important;
+}
+  .v_btn{
+    background-color: #0070ba;
+    padding:10px 35px;
+    text-decoration: none;
+    color:#fff;
+    border-radius: 50px;
+  }
+
+ .search_img{
+  object-fit: contain;
+  width:100px;
+  position: relative;
+  top:2.5em;
+ }
+
+ .name_querySearch{
+  position:relative;
+  top:-8.2em;
+  left:27em;
+
+  cursor: pointer;
+ }
+ .base_content{
+  position: relative;
+  top:3em;
+ }
+ 
+
+ .search_outcome{
+  font-size:25px;
+  /* color:#dedede; */
+  font-weight:bolder;
+ }
+
+ 
+
+ .header_logo{
+  position: relative;
+  top:0.3em;
+ }
+
+@media (min-width:390px) and (max-width:844px){
+  .search_outcome{
+  
+  }
+  .forgotPassText{
+    position:relative;
+    left:27px;
+  }
+
+  .display{
+    display:none !important;
+  } 
+  .returnLogin{
+    position:relative;
+    left:-5em;
+  }
+
+  .search_bit{
+    display:block;
+    font-size:13px;
+    color:#999b9d;
+    font-weight:bold;
+    position:relative;
+    top:1rem;
+    left:3rem;
+  }
+
+  .drop_down{
+   /* display:block; */
+   position: relative;
+   z-index: 50;
+   top:2.3em;
+   border:1px solid #012169;
+   left:-1.4rem;
+   height:25vh;
+   padding:3px;
+   border-radius:5px;
+   background-color: #fff;}
+
+  .p_tag{
+    font-size:12px;
+    margin-bottom:7px;
+    margin-top:3px;}
+
+  .p_tag:hover{
+    background: #ccc;
+  }
+
+  .v_btn{
+    position: relative;
+    left:-25.5em;
+    top:-3em;
+    display: flex;
+    width:150px;
+  }
+
+  .search_img{
+    object-fit: contain;
+    width:90px;
+    position: relative;
+    top:5em;
+    left:-7.8em;
+   }
+
+   .base_content{
+    position: relative;
+    left:2.5rem;
+   }
+
+
+   .width_header{
+    width:80%;
+   }
+
+   .base_content{
+    position: relative;
+    top:0.8em;
+   }
+
+
+   .dom_p_tag1{
+    width:305px !important;
+    position:relative;
+    left:-0.9rem;
+   }
+
+   .dom_p_tag2{
+    width:305px !important;
+    position:relative;
+    left:-0.9rem;
+   }
+
+   .what_to_expert{
+    height:30vh !important;
+    margin-bottom:25em !important;}
+
+
+    .reviews_container{
+      width:425px !important;
+      height:300vh !important;
+    }
+
+    .card_content{
+      height:35vh !important;
+    }
+
+    .name_spot{
+      height:7vh !important;
+    }
+
+    .color{
+      position:relative;
+      top:-2.9em !important;
+    }
+
+
+    .footer_icon{
+      position: relative;
+      top:0.5em !important;
+    }
+
+
+    .reg{
+      position: relative;
+      top:30px !important;
+    }
+}
+
+
+
+@media (min-width:768px) and (max-width:900px){
+
+.vrom{
+  position: relative;
+  top:3em !important;
+  font-size: 14px;
+  left:40px !important;
+}
+  .footer_icon{
+    position: relative;
+    left:-0px !important;
+  }
+    .search_outcome{
+      font-size:18px;
+      position:relative;
+      top:-0.5em;
+    }
+ 
+ 
+    .returnLogin{
+        position:relative;
+        left:-5em;
+    }
+
+    .v_btn{
+      position: relative;
+      left:-25em;
+      top:-5em;
+      display: flex;
+      flex-direction:row ;
+      width:150px !important;
+    }
+    .body_button{
+        width:200px !important;
+        height:35px !important;
+        font-size:12px !important;
+        position:relative;
+        left:-435px !important;
+        top:-5rem !important;
+        color:#fff !important;
+        background: color #0070ba !important;
+    }
+
+    .drop_down{
+        /* display:block; */
+        position: relative;
+        z-index: 50;
+        top:2.3em;
+        border:1px solid #012169;
+        left:-1.4rem;
+        height:20vh;
+        padding:3px;
+        border-radius:5px;
+        background-color: #fff;
+       }
+    
+       .comment{
+         font-size:12px;
+         width:130px !important;
+       }
+
+
+      .color{
+       font-size:10px;
+       position:relative;
+       top:10px !important;
+         }
+
+
+
+      .w_t_content{
+        height:50vh !important;
+      }
+       .what_to_expert{
+        /* background-color:red; */
+        height:5vh !important;
+        margin-bottom:10em !important;
+       }  
+     .expert_h1{
+        font-size:20px !important;
+        position:relative;
+        left:-11.5rem !important;
+     }
+
+    .content_1{
+        position:relative;
+        top:-1.8em!important;
+        left:-6em !important;  
+    }
+
+   .dom_name1{
+    font-size:13px !important;
+    left:-0.3rem !important;
+    position:relative;
+   
+   }
+
+   .dom_p_tag1{
+    font-size:10px !important;
+    width:150px !important;
+   }
+
+   .img1{width:70px !important;
+        object-fit:contain !important;
+        position:relative !important;
+        left:-1em !important;
+        top:2em;}
+    
+
+
+    
+    
+     
+    
+        .content_2{
+            position:relative;
+            left:5.5em !important; 
+            top:-15.5em !important; 
+        }
+    
+       .dom_name2{
+        font-size:13px !important;
+        left:-0.3rem !important;
+        position:relative;
+        top:0.5rem;
+        font-weight:bolder;
+       }
+    
+       .dom_p_tag2{
+        font-size:10px !important;
+        width:150px !important;
+        position:relative;
+        top:0.9em;
+       }
+    
+       .img2{width:70px !important;
+            object-fit:contain !important;
+            position:relative !important;
+            left:-1em !important;
+            top:2em;}
+        
+
+
+
+
+    .content_3{
+        position:relative;
+        left:-8em !important; 
+        top:-15em !important;  
+    }
+
+   .dom_name3{
+    font-size:13px !important;
+    left:-0.3rem !important;
+    position:relative;
+   }
+
+   .dom_p_tag3{
+    font-size:10px !important;
+    width:150px !important;
+   }
+
+   .img3{width:70px !important;
+        object-fit:contain !important;
+        position:relative !important;
+        left:-1em !important;
+        top:2em;}
+    
+
+
+    .content_4{
+        position:relative;
+        left:4em !important;  
+        top:-28.3em !important;
+    }
+
+   .dom_name4{
+    font-size:13px !important;
+    left:0.9rem !important;
+    position:relative;
+    top:-0.9rem !important;
+   }
+
+   .dom_p_tag4{
+    font-size:10px !important;
+    width:150px !important;
+    position:relative;
+    top:-0.9rem !important;
+   }
+
+   .img4{width:50px !important;
+        object-fit:contain !important;
+        position:relative !important;
+        left:-1em !important;
+        top:2em;}
+
+
+.card_content{
+    height:20vh !important;
+    width:160px !important;
+}
+
+.reviews_container{
+  height:100vh !important;
+}
+
+.name_spot{
+    width:90px !important;
+    font-size:12px;
+    height:30px !important;
+    position:relative;
+    top:-8.5em !important;
+    left:2.3em !important;
+}
+    
+.avatar_review{
+   width:80px !important;
+   height:80px !important;
+   position:relative;
+   left:2.5em !important;
+   top:-6em !important;
+}
+    
+.comment{
+    font-size:11px !important;
+    position:relative;
+    top:-7.7em !important;
+
+}
+
+.color{
+    position:relative;
+    top:-5.7em !important;
+}
+    
+
+.container_4{
+    position:relative;
+    top:-5em !important;
+    left:-2.5em !important;}
+
+    .container_3{
+      position:relative;
+      top:3.9em !important;
+      left:10em !important;}
+
+    .container_1{
+      position:relative;
+      top:3em ;
+      left:-2.5em !important;}
+
+      .container_2{
+        position:relative;
+        top:-6em !important;
+        left:10em !important;}
+
+
+        .display{
+          display:block !important;
+        }
+
+        .width_header{
+          width:60%;
+        }
+
+
+        .base_content{
+          position: relative;
+          top:0.3rem;
+        }
+
+   }
