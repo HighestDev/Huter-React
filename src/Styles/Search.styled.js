@@ -480,12 +480,35 @@ box-shadow:0px 2px 12px 3px rgba(0,0,0,0.14);
 max-width:850px;
 margin:0 auto;
 margin-top:10em;
+position:relative;
+left:1.5rem;
 
 >button{
   height:60px;
   width:80px;
   font-size:19px;
 }
+
+
+@media (min-width:390px) and (max-width:844px){
+  height:2.9em;
+  width:23em;
+  position:relative;
+  left:-15px;
+
+  >button{
+    padding:5px;
+    height:50px;
+  }
+}
+
+@media (min-width:768px) and (max-width:900px){
+  position:relative;
+  left:-11em;
+  top:3em;
+
+}
+
 `;
 
 
@@ -497,6 +520,11 @@ export const VerifyInputName=styled.input`
   // outline:none;
   border-radius:5px;
 
+  @media (min-width:390px) and (max-width:844px){
+    width:150px;
+    height:50px;
+  }
+
 `
 
 export const CompanyInputName=styled.input`
@@ -506,6 +534,12 @@ export const CompanyInputName=styled.input`
   // outline:none;
   border-radius:5px;
   font-size:15px;
+
+  @media (min-width:390px) and (max-width:844px){
+    width:150px;
+    height:50px;
+  }
+
 `
 
 export const EmailDataRender=styled.div`
@@ -516,7 +550,7 @@ align-items:center;
 height:15em;
 width:40em;
 position:relative;
-left:22.5em;
+left:24.5em;
 border-radius:6px;
 box-shadow:0px 2px 12px 3px rgba(0,0,0,0.14);
 overflow:hidden;
@@ -537,5 +571,26 @@ p{
   font-weight:300;
 
 }
+
+@media (min-width:390px) and (max-width:844px){
+width:23.5em;
+height:20em;
+position:relative;
+left:1.5em;
+
+>h4{
+  margin-top:15px;
+}
+
+}
+
+
+@media (min-width:768px) and (max-width:900px){
+
+  position:relatvie;
+  top:2em;
+  width:24.5em;
+}
+
 
 `;

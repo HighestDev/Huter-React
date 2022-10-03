@@ -6,6 +6,11 @@
   box-sizing: border-box;
   font-family: 'League Spartan', sans-serif !important;}
 
+  .rotate{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 10em;
+  }
 .control_container{
   position:relative;
   top:3rem !important;
@@ -21,6 +26,11 @@
 
   .domain_details{
 
+  }
+
+  .error{
+    color:red;
+    margin-top: 25px;
   }
 
   .name{
@@ -41,10 +51,12 @@
 }
   .v_btn{
     background-color: #0070ba;
-    padding:10px 35px;
+    padding:17px 85px;
     text-decoration: none;
     color:#fff;
     border-radius: 50px;
+    position: relative;
+    top:1em;
   }
 
  .search_img{
@@ -84,6 +96,11 @@
   .search_outcome{
   
   }
+
+  .rotate{
+    max-width: 170px;
+  }
+  
   .forgotPassText{
     position:relative;
     left:27px;
@@ -133,7 +150,7 @@
     left:-25.5em;
     top:-3em;
     display: flex;
-    width:150px;
+    padding: 15px 24px;
   }
 
   .search_img{
@@ -236,11 +253,13 @@
 
     .v_btn{
       position: relative;
-      left:-25em;
-      top:-5em;
-      display: flex;
+      left:-43em;
+      top:-8.5em;
+      display: flex;height:10px;
+      padding:15px 30px;
       flex-direction:row ;
-      width:150px !important;
+      font-size: 10px;
+      
     }
     .body_button{
         width:200px !important;
